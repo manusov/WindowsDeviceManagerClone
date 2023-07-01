@@ -1,0 +1,264 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_APP                 ICON                    "Icons_App\\app.ico"
+
+IDI_CLOSED              ICON                    "Icons_Service\\closed.ico"
+
+IDI_CLOSED_LIGHT        ICON                    "Icons_Service\\closed_light.ico"
+
+IDI_OPENED              ICON                    "Icons_Service\\opened.ico"
+
+IDI_OPENED_LIGHT        ICON                    "Icons_Service\\opened_light.ico"
+
+IDI_ACPI                ICON                    "Icons_System\\acpi.ico"
+
+IDI_ACPI_HAL            ICON                    "Icons_System\\acpi_hal.ico"
+
+IDI_AUDIO               ICON                    "Icons_System\\audio.ico"
+
+IDI_AUDIO_IO            ICON                    "Icons_System\\audio_io.ico"
+
+IDI_BLUETOOTH           ICON                    "Icons_System\\bluetooth.ico"
+
+IDI_DISPLAYS            ICON                    "Icons_System\\displays.ico"
+
+IDI_HID                 ICON                    "Icons_System\\hid.ico"
+
+IDI_IDE                 ICON                    "Icons_System\\ide.ico"
+
+IDI_IMAGE_PROCESSING    ICON                    "Icons_System\\image_processing.ico"
+
+IDI_KEYBOARDS           ICON                    "Icons_System\\keyboards.ico"
+
+IDI_MASS_STORAGE        ICON                    "Icons_System\\mass_storage.ico"
+
+IDI_MOBILE_DEVICES      ICON                    "Icons_System\\mobile_devices.ico"
+
+IDI_MOUSES              ICON                    "Icons_System\\mouses.ico"
+
+IDI_NETWORK             ICON                    "Icons_System\\network.ico"
+
+IDI_OTHER               ICON                    "Icons_System\\other.ico"
+
+IDI_PCI                 ICON                    "Icons_System\\pci.ico"
+
+IDI_PCI_IDE             ICON                    "Icons_System\\pci_ide.ico"
+
+IDI_PORTS               ICON                    "Icons_System\\ports.ico"
+
+IDI_PRINT               ICON                    "Icons_System\\print.ico"
+
+IDI_PROCESSORS          ICON                    "Icons_System\\processors.ico"
+
+IDI_ROOT_ENUMERATOR     ICON                    "Icons_System\\root_enumerator.ico"
+
+IDI_SCSI                ICON                    "Icons_System\\scsi.ico"
+
+IDI_SECURITY            ICON                    "Icons_System\\security.ico"
+
+IDI_SOFT_COMPONENTS     ICON                    "Icons_System\\soft_components.ico"
+
+IDI_SOFT_DEVICES        ICON                    "Icons_System\\soft_devices.ico"
+
+IDI_SYSTEM_TREE         ICON                    "Icons_System\\system_tree.ico"
+
+IDI_THIS_COMPUTER       ICON                    "Icons_System\\this_computer.ico"
+
+IDI_UEFI                ICON                    "Icons_System\\uefi.ico"
+
+IDI_UM_BUS              ICON                    "Icons_System\\um_bus.ico"
+
+IDI_USB                 ICON                    "Icons_System\\usb.ico"
+
+IDI_USB_STORAGE         ICON                    "Icons_System\\usb_storage.ico"
+
+IDI_VIDEO_ADAPTERS      ICON                    "Icons_System\\video_adapters.ico"
+
+IDI_BOOKS               ICON                    "Icons_App\\books.ico"
+
+IDI_RES_MEMORY          ICON                    "Icons_Resources\\memory.ico"
+
+IDI_RES_LARGE_MEMORY    ICON                    "Icons_Resources\\large_memory.ico"
+
+IDI_RES_IO              ICON                    "Icons_Resources\\io.ico"
+
+IDI_RES_IRQ             ICON                    "Icons_Resources\\irq.ico"
+
+IDI_RES_DMA             ICON                    "Icons_Resources\\dma.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAIN_MENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Save report ...",            IDM_FILE_SAVEREPORT, INACTIVE
+        MENUITEM "S&ave image ...",             IDM_FILE_SAVEIMAGE, INACTIVE
+        MENUITEM SEPARATOR
+        MENUITEM "L&oad report ...",            IDM_FILE_LOADREPORT, INACTIVE
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_FILE_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Devices",                    IDM_VIEW_DEVICES
+        MENUITEM "&Resources",                  IDM_VIEW_RESOURCES
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "About ...",                   IDM_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOGEX 1, 23, 183, 143
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",ID_ABOUT_OK,65,122,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR TOOLBAR 16, 16
+BEGIN
+    BUTTON      ID_TB_DEVICES
+    BUTTON      ID_TB_RESOURCES
+    BUTTON      ID_SEP
+    BUTTON      ID_TB_ABOUT
+    BUTTON      ID_TB_EXIT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_TOOLBAR             BITMAP                  "bitmaps_app\\toolbar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    ID_TB_ABOUT             "About"
+    ID_TB_EXIT              "Exit"
+    ID_TB_DEVICES           "View devices list"
+    ID_TB_RESOURCES         "View resources usage map"
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

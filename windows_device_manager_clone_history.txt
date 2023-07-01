@@ -1,0 +1,6 @@
+01.07.2023. First commit. Engineering sample #0.13.0.2.
+See also previous branches:
+Prototyping and debug:
+https://github.com/manusov/Prototyping
+https://github.com/manusov/LearningVisualStudio
+https://github.com/manusov/LearningVisualStudio/tree/master/device_manager_clone

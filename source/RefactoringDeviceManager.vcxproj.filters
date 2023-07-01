@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGUI.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ManageResources.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ManageDLL.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="ManageKMD.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumConst.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumWin.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGUI.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageResources.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageDLL.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageKMD.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumConst.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumWin.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RefactoringDeviceManager.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Icons_App\app.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_Service\closed.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_Service\closed_light.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_Service\opened.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_Service\opened_light.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\acpi.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\acpi_hal.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\audio.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\audio_io.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\bluetooth.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\displays.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\hid.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\ide.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\image_processing.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\keyboards.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\mass_storage.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\mobile_devices.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\mouses.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\network.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\other.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\pci.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\pci_ide.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\ports.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\print.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\processors.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\root_enumerator.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\scsi.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\security.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\soft_components.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\soft_devices.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\system_tree.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\this_computer.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\uefi.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\um_bus.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\usb.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\usb_storage.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_System\video_adapters.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_App\books.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="bitmaps_app\toolbar.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_Resources\memory.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_Resources\large_memory.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_Resources\io.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_Resources\irq.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="Icons_Resources\dma.ico">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
